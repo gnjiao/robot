@@ -1,0 +1,131 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\leanh_000\Desktop\NHUNG\Robot\Test1.uvproj
+Project File Date:  05/08/2016
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+UART/MYUART.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif /* UART_UART_H_ */
+QEI/qei.h(109): warning:  #1295-D: Deprecated declaration EncodersInit - give arg types
+  extern void EncodersInit();
+main.c: 2 warnings, 0 errors
+compiling Direct_Kinematics.c...
+..\Robot\UART/MYUART.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif /* UART_UART_H_ */
+..\Robot\QEI/qei.h(109): warning:  #1295-D: Deprecated declaration EncodersInit - give arg types
+  extern void EncodersInit();
+Direct_Kinematics\Direct_Kinematics.c: 2 warnings, 0 errors
+compiling MYUART.c...
+..\Robot\UART/MYUART.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif /* UART_UART_H_ */
+..\Robot\QEI/qei.h(109): warning:  #1295-D: Deprecated declaration EncodersInit - give arg types
+  extern void EncodersInit();
+UART\MYUART.c: 2 warnings, 0 errors
+compiling Timer.c...
+..\Robot\UART/MYUART.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif /* UART_UART_H_ */
+..\Robot\QEI/qei.h(109): warning:  #1295-D: Deprecated declaration EncodersInit - give arg types
+  extern void EncodersInit();
+TIMER\Timer.c: 2 warnings, 0 errors
+compiling MY_GPIO.c...
+..\Robot\UART/MYUART.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif /* UART_UART_H_ */
+..\Robot\QEI/qei.h(109): warning:  #1295-D: Deprecated declaration EncodersInit - give arg types
+  extern void EncodersInit();
+GPIO\MY_GPIO.c: 2 warnings, 0 errors
+compiling matrix.c...
+..\Robot\UART/MYUART.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif /* UART_UART_H_ */
+..\Robot\QEI/qei.h(109): warning:  #1295-D: Deprecated declaration EncodersInit - give arg types
+  extern void EncodersInit();
+MATRIX\matrix.c: 2 warnings, 0 errors
+compiling qei.c...
+..\Robot\UART/MYUART.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif /* UART_UART_H_ */
+..\Robot\QEI/qei.h(109): warning:  #1295-D: Deprecated declaration EncodersInit - give arg types
+  extern void EncodersInit();
+QEI\qei.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=14600 RO-data=712 RW-data=304 ZI-data=2472  
+".\Test1.axf" - 0 Error(s), 14 Warning(s).
+</pre>
+</body>
+</html>
+): warning:  #1295-D: Deprecated declaration EncodersInit - give arg types
+  extern void EncodersInit();
+QEI\qei.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=14600 RO-data=712 RW-data=304 ZI-data=2472  
+".\Test1.axf" - 0 Error(s), 14 Warning(s).
+error:  #167: argument of type "volatile real_T (*)[4]" is incompatible with parameter of type "real_T (*)[4]"
+        DH_A( 6, q6, A6 );
+Direct_Kinematics\Direct_Kinematics.c(76): error:  #167: argument of type "volatile real_T (*)[4]" is incompatible with parameter of type "real_T (*)[4]"
+        UART_Print_Matrix( A6 );
+Direct_Kinematics\Direct_Kinematics.c(83): error:  #167: argument of type "volatile real_T (*)[4]" is incompatible with parameter of type "real_T (*)[4]"
+        Mul_Matrix( A1, A2 );
+Direct_Kinematics\Direct_Kinematics.c(83): error:  #167: argument of type "volatile real_T (*)[4]" is incompatible with parameter of type "real_T (*)[4]"
+        Mul_Matrix( A1, A2 );
+Direct_Kinematics\Direct_Kinematics.c(84): error:  #167: argument of type "volatile real_T (*)[4]" is incompatible with parameter of type "real_T (*)[4]"
+        UART_Print_Matrix( A1 );
+Direct_Kinematics\Direct_Kinematics.c(90): error:  #167: argument of type "volatile real_T (*)[4]" is incompatible with parameter of type "real_T (*)[4]"
+        Mul_Matrix( A1, A3 );
+Direct_Kinematics\Direct_Kinematics.c(90): error:  #167: argument of type "volatile real_T (*)[4]" is incompatible with parameter of type "real_T (*)[4]"
+        Mul_Matrix( A1, A3 );
+Direct_Kinematics\Direct_Kinematics.c(91): error:  #167: argument of type "volatile real_T (*)[4]" is incompatible with parameter of type "real_T (*)[4]"
+        UART_Print_Matrix( A1 );
+Direct_Kinematics\Direct_Kinematics.c(97): error:  #167: argument of type "volatile real_T (*)[4]" is incompatible with parameter of type "real_T (*)[4]"
+        Mul_Matrix( A1, A4 );
+Direct_Kinematics\Direct_Kinematics.c(97): error:  #167: argument of type "volatile real_T (*)[4]" is incompatible with parameter of type "real_T (*)[4]"
+        Mul_Matrix( A1, A4 );
+Direct_Kinematics\Direct_Kinematics.c(98): error:  #167: argument of type "volatile real_T (*)[4]" is incompatible with parameter of type "real_T (*)[4]"
+        UART_Print_Matrix( A1 );
+Direct_Kinematics\Direct_Kinematics.c(103): error:  #167: argument of type "volatile real_T (*)[4]" is incompatible with parameter of type "real_T (*)[4]"
+        Mul_Matrix( A1, A5 );
+Direct_Kinematics\Direct_Kinematics.c(103): error:  #167: argument of type "volatile real_T (*)[4]" is incompatible with parameter of type "real_T (*)[4]"
+        Mul_Matrix( A1, A5 );
+Direct_Kinematics\Direct_Kinematics.c(104): error:  #167: argument of type "volatile real_T (*)[4]" is incompatible with parameter of type "real_T (*)[4]"
+        UART_Print_Matrix( A1 );
+Direct_Kinematics\Direct_Kinematics.c(109): error:  #167: argument of type "volatile real_T (*)[4]" is incompatible with parameter of type "real_T (*)[4]"
+        Mul_Matrix( A1, A6 );
+Direct_Kinematics\Direct_Kinematics.c(109): error:  #167: argument of type "volatile real_T (*)[4]" is incompatible with parameter of type "real_T (*)[4]"
+        Mul_Matrix( A1, A6 );
+Direct_Kinematics\Direct_Kinematics.c(110): error:  #167: argument of type "volatile real_T (*)[4]" is incompatible with parameter of type "real_T (*)[4]"
+        UART_Print_Matrix( A1 );
+Direct_Kinematics\Direct_Kinematics.c: 2 warnings, 27 errors
+compiling MYUART.c...
+..\Robot\UART/MYUART.h(11): warning:  #1-D: last line of file ends without a newline
+  extern void UARTFloatx(USART_TypeDef* UART_Base ,float fnum2send);
+..\Robot\QEI/qei.h(109): warning:  #1295-D: Deprecated declaration EncodersInit - give arg types
+  extern void EncodersInit();
+UART\MYUART.c: 2 warnings, 0 errors
+compiling Timer.c...
+..\Robot\UART/MYUART.h(11): warning:  #1-D: last line of file ends without a newline
+  extern void UARTFloatx(USART_TypeDef* UART_Base ,float fnum2send);
+..\Robot\QEI/qei.h(109): warning:  #1295-D: Deprecated declaration EncodersInit - give arg types
+  extern void EncodersInit();
+TIMER\Timer.c: 2 warnings, 0 errors
+compiling MY_GPIO.c...
+..\Robot\UART/MYUART.h(11): warning:  #1-D: last line of file ends without a newline
+  extern void UARTFloatx(USART_TypeDef* UART_Base ,float fnum2send);
+..\Robot\QEI/qei.h(109): warning:  #1295-D: Deprecated declaration EncodersInit - give arg types
+  extern void EncodersInit();
+GPIO\MY_GPIO.c: 2 warnings, 0 errors
+compiling matrix.c...
+..\Robot\UART/MYUART.h(11): warning:  #1-D: last line of file ends without a newline
+  extern void UARTFloatx(USART_TypeDef* UART_Base ,float fnum2send);
+..\Robot\QEI/qei.h(109): warning:  #1295-D: Deprecated declaration EncodersInit - give arg types
+  extern void EncodersInit();
+MATRIX\matrix.c: 2 warnings, 0 errors
+compiling qei.c...
+..\Robot\UART/MYUART.h(11): warning:  #1-D: last line of file ends without a newline
+  extern void UARTFloatx(USART_TypeDef* UART_Base ,float fnum2send);
+..\Robot\QEI/qei.h(109): warning:  #1295-D: Deprecated declaration EncodersInit - give arg types
+  extern void EncodersInit();
+QEI\qei.c: 2 warnings, 0 errors
+".\Test1.axf" - 27 Error(s), 14 Warning(s).
+Target not created
